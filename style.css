@@ -1,0 +1,54 @@
+body,html{
+    background-color: rgb(255, 255, 255);
+}
+.text{
+    width: 350px;
+    height: 0px;
+    background-color: gb(255, 255, 255);
+    margin-top: 300px;
+    margin-left: 500px;
+    padding: 10px;
+    text-align: center;
+
+}
+.girisekranı{
+    width: 150px;
+    height: 150px;
+    background-color: gb(255, 255, 255);
+    margin-left: 610px;
+
+    padding: 0px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+.butonPolN{
+    border: none;
+    background-color:#3498db ;
+}
+.butonPolO{
+    border: none;
+    background-color: #e74c3c;
+}
+.container {
+    display: flex;
+    height: 100%;
+  }
+  .half {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+  }
+  .left-half {
+    background-color: #3498db; /* Mavi */
+    margin-top: 400px;
+
+  }
+  .right-half {
+    background-color: #e74c3c; /* Kırmızı */
+    margin-top: 400px;
+  }

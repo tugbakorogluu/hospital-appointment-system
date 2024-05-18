@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genel Arama ile Randevu</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Seçim Sayfası</h1>
+            <div class="form-group">
+                <label for="il">İl:</label>
+                <select id="il">
+                    <option value="ankara">Ankara</option>
+                    <option value="istanbul">İstanbul</option>
+                    <option value="konya">Konya</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ilce">İlçe:</label>
+                <select id="ilce">
+                    <!-- Seçime bağlı olarak ilçeler dinamik olarak eklenebilir -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="hastane">Hastane:</label>
+                <select id="hastane">
+                    <!-- Hastane seçenekleri buraya gelecek -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="doktor">Doktor:</label>
+                <select id="doktor">
+                    <!-- Doktor seçenekleri buraya gelecek -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="tarih">Tarih Aralığı:</label>
+                <input type="date" id="tarih" name="tarih">
+            </div>
+            <button onclick="submitForm()">Randevu Ara</button>
+        </div>
+    </body>
+
+</html>
