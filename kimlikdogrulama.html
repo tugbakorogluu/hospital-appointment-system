@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2 class="text">Kullanıcı Doğrulama Formu</h2>
-    <form id="dogrulamaFormu" class="girisekranı">
+    <form id="dogrulamaFormu" class="girisekranı" onsubmit="return doğrula()">
         <div class="ad">
             <label for="ad">Adınız:</label>
             <input type="text" id="ad" name="ad" required>
@@ -18,15 +18,14 @@
             <input type="text" id="soyad" name="soyad" required>
         </div>
         <div class="kimlik">
-            <label for="kimlik">TC Kimlik Numarası:</label>
-            <input type="text" id="kimlik" name="kimlik" required>
+            <label for="tcno">TC Kimlik Numarası:</label>
+            <input type="text" id="tcno" name="tcno" required>
         </div>
         <div >
-            
-            <a href="hastanetipi.html"><button class="buton" type="button" onclick="dogrula()">Doğrula</button></a>
+            <button class="buton" type="submit">Doğrula</button>
         </div>
     </form>
-
-    
+    <script src="kimlikdogrulama.js"></script>
 </body>
 </html>
+
