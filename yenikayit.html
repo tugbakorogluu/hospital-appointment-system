@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hastane Tipi Seçme Ekranı</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <form id="kayıtFormu" class="yeni-kayit-ekarni" onsubmit="return doğrula()">
+            <div class="kayit-ad">
+                <label for="kayit-ad">Adınız:</label>
+                <input type="text" id="kayit-ad" name="kayit-ad" required>
+            </div>
+            
+            <div class="kayit-soyad">
+                <label for="kayit-soyad">Soyadınız:</label>
+                <input type="text" id="kayit-soyad" name="kayit-soyad" required>
+            </div>
+            
+            <div class="kayit-kimlik">
+                <label for="kayit-tcno">TC Kimlik Numarası:</label>
+                <input type="text" id="kayit-tcno" name="kayit-tcno" required>
+            </div>
+            <div >
+                
+                <buttone type="submit" >Kayıt Oluştur</button> 
+            </div>
+            
+        </form>
+
+    </body>
+</html>

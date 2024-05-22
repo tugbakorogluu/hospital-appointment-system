@@ -1,6 +1,8 @@
 let people = [
     { tc: "12345678901", isim: "Hızır", soyisim: "Çiçekdağ"},
-    { tc: "98765432109", isim: "Tuğba", soyisim: "Köroğlu"}
+    { tc: "98765432109", isim: "Tuğba", soyisim: "Köroğlu"},
+    { tc: "11111111111", isim: "Emre", soyisim: "Haksever"}
+
     //bu kısım listeler olup kullanıcı tc, isim ve soyisimleri bulunmakta
 ];
 
